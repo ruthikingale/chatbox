@@ -1,0 +1,152 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi","hii","hiii",
+        "Hey",
+        "Is anyone there?",
+        "Hello","Helloooo",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "Clever",
+        "patterns": [
+              "You are very clever",
+              "You are a very clever girl",
+              "You are very intelligent",
+              "You are a very intelligent girl",
+              "You are a genious",
+              "Clever girl",
+              "Genious"
+        ],
+        "responses": [
+              "Thank you, I was trained that way",
+              "I was trained well",
+              "Thanks, I was trained that way"
+        ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Adios","See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "See you later"  
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "OK thank you",
+        "OK thanks",
+        "OK",
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "No problem!",
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "NameQuery",
+      "patterns": [
+        "What is your name?",
+        "What could I call you?",
+        "What can I call you?",
+        "What do your friends call you?",
+        "Who are you?",
+        "Tell me your name?"
+      ],
+      "responses": [
+        "You can call me Whatever you want.",
+        "You may call me Siri",
+        "Call me Siri."
+      ]
+    },
+    {
+      "tag": "UnderstandQuery",
+      "patterns": [
+        "Do you understand what I am saying",
+        "Do you understand me",
+        "Do you know what I am saying",
+        "Do you get me",
+        "Comprendo",
+        "Know what I mean"
+      ],
+      "responses": [
+        "Well I would not be a very clever AI if I did not would I?",
+        "I read you loud and clear!",
+        "I do in deed!"
+      ]
+    },
+    {
+      "tag": "Shutup",
+      "patterns": [
+        "Be quiet",
+        "Shut up",
+        "Stop talking",
+        "Enough talking",
+        "Please be quiet",
+        "Quiet",
+        "Shhh"
+      ],
+      "responses": [
+        "I am sorry to disturb you",
+        "Fine, sorry to disturb you",
+        "OK, sorry to disturb you"
+      ]
+    }
+  ]
+}
+
+
